@@ -1,7 +1,11 @@
 
+import { useState } from 'react';
 import './App.css'
 
 const  App =()=> {
+
+const [cambio, setCambio] = useState(true)
+
 const tiempo = (hora) =>{
 
   if(hora < 12){
@@ -15,10 +19,9 @@ const tiempo = (hora) =>{
 
 const animales = ["perro", "gato", "loro", "murciélago"];
 
-const boton = () => {
 
-  
-} 
+
+
 
   
 return (
@@ -26,7 +29,10 @@ return (
     
       {tiempo(20)}
      {animales.map((animal,index) => {return <p key={index}>{animal}</p>})}
-      <button onClick={boton}></button>
+     
+      <button onClick={()=>setCambio(!cambio)}>Hola</button>
+      {cambio ? <p>Está en true</p> : <p>Está en false</p>}
+      
     </>
   )
   };
