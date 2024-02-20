@@ -1,6 +1,6 @@
 
 import './App.css'
-import { Title, Subtitle} from './components/index'
+import { Title, Subtitle, Image, Paragraph} from './components/index'
 
 
 function App() {
@@ -11,7 +11,8 @@ function App() {
     
      <Title/>
     <Subtitle/>
-    
+    <Image/>
+    <Paragraph/>
   
     
     </>
