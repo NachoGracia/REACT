@@ -1,9 +1,9 @@
 
 
-const Title = ({titulo}) => {
+const Title = ({texto}) => {
     
   return (
-    <h1>{titulo}</h1>
+    <h1>{texto}</h1>
   )
 }
 
