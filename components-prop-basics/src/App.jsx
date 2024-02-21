@@ -1,22 +1,17 @@
-
-import './App.css'
-import H1 from './Components/H1'
-import Image from './Components/Image'
-import Paragraph from './Components/Paragraph'
-import Subtitle from './Components/Subtitle'
+import "./App.css"
+import Title from "./Components/Title"
 
 
 
 function App() {
+const titulo1 = "Este es el título 1"
+const titulo2 = "Este es el título 2"
 
 
   return (
     <>
-     <H1>Hola con props</H1>
-     <H1>Otro h1 con props</H1>
-     <Subtitle>Subtitulo con props</Subtitle>
-     <Image/>
-     <Paragraph>Paragraph con props</Paragraph>
+  <Title titulo={titulo1}/>
+  <Title titulo={titulo2}/>
     </>
   )
 }
