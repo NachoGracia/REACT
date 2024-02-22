@@ -22,7 +22,7 @@ return(
 <Subtitle text={"texto prueba"}/>
 <ul>
   <li>
-    <Paragraph><Card character={character.name}/></Paragraph>
+    <Paragraph><CharacterList/></Paragraph>
     <Paragraph></Paragraph>
     <Paragraph></Paragraph>
     <Paragraph></Paragraph>
