@@ -1,0 +1,12 @@
+.containerCharacters{
+
+    width: 100vw;
+    display: flex;
+flex-wrap: wrap;
+align-items: center;
+align-content: center;
+
+div{
+    display: inline-block;
+}
+}
