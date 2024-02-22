@@ -1,17 +1,15 @@
-import "./Card.css"
+import "./Card.css";
 
-
- const Card = (props) => {
+const Card = (props) => {
   const { character } = props;
 
   return (
-    <figure>
-      {/* <h2 className="id">{character.id}</h2> */}
+    <li>
+      <p>{character.name}</p>
       <img src={character.image} alt={character.name} />
-      <h2 className="name">{character.name}</h2>
-      <p>Status: {character.status}</p>
-      <p className="origin">Origin: {character.location.name}</p>
-    </figure>
+      <p>{character.status}</p>
+      <p>{character.origin.name}</p>
+    </li>
   );
 };
 

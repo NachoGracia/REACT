@@ -2,6 +2,6 @@
 
 export const Subtitle = ({text}) => {
   return (
-    <p>{text}</p>
+    <p className="subtitle">{text}</p>
   )
 }

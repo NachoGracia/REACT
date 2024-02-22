@@ -1,6 +1,6 @@
 
 import "./App.css"
-import Card from "./Components/Card/Card";
+
 
 import CharacterList from "./Components/CharacterList/CharacterList";
 import { Header } from "./Components/Header/Header";
@@ -21,12 +21,9 @@ return(
   <Main>
 <Subtitle text={"texto prueba"}/>
 <ul>
-  <li>
-    <Paragraph><CharacterList/></Paragraph>
-    <Paragraph></Paragraph>
-    <Paragraph></Paragraph>
-    <Paragraph></Paragraph>
-  </li>
+  
+    <CharacterList/>
+  
 </ul>
 
   </Main>

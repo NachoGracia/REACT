@@ -16,29 +16,15 @@ import "./CharacterList.css"
     })();
   }, []);
 
+  
   return (
     <>
-    <div className="containerCharacters">
-      {characterList.map((character) => {
-        if (character.status == "Alive" || character.status == "unknown") {
-          return (
-            <Card key={character.id} character={character} />
-            // <div key={character.id}>
-            //   <img src={character.image} alt={character.name} />
-            //   <h2 className="id">{character.id}</h2>
-            //   <h2 className="name">{character.name}</h2>
-            //   <p>Status: {character.status}</p>
-            //   
-
-            // </div>
-          );
-        } else {
-          return null;
-        }
-      })}
-      </div>
+      {characterList.map((character) => (
+        <Card key={character.id} character={character} />
+      ))}
     </>
   );
 };
+
 
 export default CharacterList

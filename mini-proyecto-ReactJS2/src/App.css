@@ -5,8 +5,22 @@
   text-align: center;
   
 }
+ul{
+ 
+    display: flex;
+    flex-wrap: wrap;
+   align-items: center;
+   gap: 1rem;
+   list-style-type:none;
+    
+}
 
-
+.subtitle{
+  display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
