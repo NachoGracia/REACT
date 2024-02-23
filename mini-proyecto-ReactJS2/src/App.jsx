@@ -20,11 +20,11 @@ return(
    </Header>
   <Main>
 <Subtitle text={"texto prueba"}/>
-<ul>
+
   
     <CharacterList/>
   
-</ul>
+
 
   </Main>
   

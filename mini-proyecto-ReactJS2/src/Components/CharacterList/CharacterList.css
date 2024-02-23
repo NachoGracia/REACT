@@ -10,3 +10,14 @@ div{
     display: inline-block;
 }
 }
+ul{
+    width: 100vw;
+       display: flex;
+       flex-wrap: wrap;
+      align-items: center;
+      gap: 1rem;
+      list-style-type:none;
+      justify-content: center;
+      padding: 0;
+       
+   }

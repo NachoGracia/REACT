@@ -1,14 +1,14 @@
 import "./Card.css";
 
-const Card = (props) => {
-  const { character } = props;
+const Card = ({name, image, status, origin}) => {
+  
 
   return (
     <li>
-      <p>{character.name}</p>
-      <img src={character.image} alt={character.name} />
-      <p>{character.status}</p>
-      <p>{character.origin.name}</p>
+      <p>{name}</p>
+      <img src={image} alt={name} />
+      <p>{status}</p>
+      <p>{origin.name}</p>
     </li>
   );
 };

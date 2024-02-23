@@ -19,9 +19,11 @@ import "./CharacterList.css"
   
   return (
     <>
+    <ul>
       {characterList.map((character) => (
         <Card key={character.id} character={character} />
       ))}
+      </ul>
     </>
   );
 };
