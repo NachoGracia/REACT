@@ -21,6 +21,7 @@ import "./CharacterList.css"
     <>
     <ul>
       {characterList.map((character) => (
+        
         <Card key={character.id} character={character} />
       ))}
       </ul>

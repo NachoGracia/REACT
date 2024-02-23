@@ -17,7 +17,7 @@ return(
   <>
   <Header>
     <Title/>
-   </Header>
+  </Header>
   <Main>
 <Subtitle text={"texto prueba"}/>
 

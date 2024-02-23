@@ -1,7 +1,9 @@
 import "./Card.css";
 
-const Card = ({name, image, status, origin}) => {
-  
+const Card = ({character}) => {
+
+
+  const {name, image, status, origin} = character
 
   return (
     <li>
